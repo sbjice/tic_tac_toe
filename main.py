@@ -40,16 +40,10 @@ def row_is_filled_with_given_choice(field, row=0, choice='x'):
     return True
 
 
-arr = [['x', 'x', 'x'],
-       ['o', 'o', 'o'],
-       ['x', 'x', 'x']]
-
-
 # row_val, col_val = get_coordinates()
 # while not point_can_be_filled(test_field, row_val, col_val):
 #     print('The given point is not free, enter new point!')
 #     row_val, col_val = get_coordinates()
-
 
 
 def winning_on_rows_with_given_choice(field, choice='x'):
@@ -93,4 +87,7 @@ def winning_for_given_choice(field, choice='x'):
 
 
 
-
+# TODO 1: Move to classes
+# TODO 2: Create field autofill consistent with current player change
+# TODO 3: Create AI for playing with PC
+# TODO 4: Create main loop with game reset
